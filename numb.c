@@ -40,8 +40,8 @@ bool next_token()
 {
     if (*stream >= '0' && *stream <= '9')
     {
-        token.start = stream;
         // The next token is a number.
+        token.start = stream;
         f64 whole_portion = 0.0;
         f64 fractional_portion = 0.0;
         f64 fractional_multiplier = 0.1;

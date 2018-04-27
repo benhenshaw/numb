@@ -1,5 +1,5 @@
 # numb
-> Calculator utility.
+> A calculator utility.
 
 ```
 numb "(1 + 2) * 3"
